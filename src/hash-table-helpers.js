@@ -34,6 +34,7 @@ class LimitedArray {
     this.storage[index] = value;
   }
 }
+
 /* eslint-disable no-bitwise, operator-assignment */
 // This is hash function you'll be using to hash keys
 // There's some bit-shifting magic going on here, but essentially, all it is doing is performing the modulo operator
@@ -50,6 +51,6 @@ const getIndexBelowMax = (str, max) => {
 };
 
 module.exports = {
-  LimitedArray,
+  LimitedArray,  
   getIndexBelowMax,
 };
